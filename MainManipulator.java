@@ -1,5 +1,9 @@
+/**
+ *  
+ * @author Krisi Hristova PD 6
+ *
+ */
 import java.util.Scanner;
-
 public class MainManipulator 
 {
 	public static void main(String[] args)
@@ -13,7 +17,7 @@ public class MainManipulator
 			System.out.print("If you'd like to run the no vowels method type 1...\nIf you want to run the reverse method type 2: ");
 			int run = in.nextInt();
 			in.nextLine();
-			while(run != 1 &&  run !=2)
+			while(run != 1 &&  run != 2)
 			{
 				System.out.print("Sorry, that is not a 1 or a 2. Please enter 1 for no vowels, or 2 for reverse: ");
 				run = in.nextInt();
@@ -43,8 +47,7 @@ public class MainManipulator
 			}
 			else
 				play = false;
-	
-			//still loops  with the while
-	}
+				
+		}
 	}
 }
